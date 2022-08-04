@@ -8,6 +8,8 @@ public class Runner {
 		Dog dogOne = new Dog();
 		Dog dogTwo = new Dog("Bennie", "Labrador");
 		
+		dogOne.hello();
+		dogTwo.print();
 		System.out.println(dogTwo);
 	}
 

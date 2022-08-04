@@ -19,7 +19,15 @@ public class Dog {
 
 	@Override
 	public String toString() {
-		return "Dog: name: " + name + ", breed: " + breed;
+		return "Dog [name=" + name + ", breed=" + breed + "]";
+	}
+	
+	public void print() {
+		System.out.println("Hello " + name + ", aren't you a good " + breed);
+	}
+	
+	public void hello() {
+		System.out.println("Hello");
 	}
 	
 }
